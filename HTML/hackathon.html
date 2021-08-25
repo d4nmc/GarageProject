@@ -1,42 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
 
-<script>
 
-//  1.	Create a new Object called darthVader and add the following key/value pairs to it:
-//a	allegiance - Empire;
-//b	weapon - lightsabre;
-//c	sith - true (boolean value).
+    <script>
 
-let darthVader = {
-     allegiance: "Empire",
-     weapon: "lightsaber",
-     sith: true
- };
+        //  1.	Create a new Object called darthVader and add the following key/value pairs to it:
+        //a	allegiance - Empire;
+        //b	weapon - lightsabre;
+        //c	sith - true (boolean value).
 
- console.log(darthVader);
+        let darthVader = {
+            allegiance: "Empire",
+            weapon: "lightsaber",
+            sith: true
+        };
 
-//  2.	Access the properties that you have just declared by logging out the following details:
-// a)	DarthVader's allegiance;
-// b)	Darth Vader's weapon;
-// c)	If Darth Vader is a sith;
-// d)	The value of Jedi from Darth Vader; 
-// e)	The number of properties Darth Vader has (see the line of code below for this)
-// console.log(Object.keys(darthVader).length);
+        console.log(darthVader);
 
-console.log(`Darth Vader's allegiance is to the ${darthVader.allegiance}`);
-console.log(`Darth Vader's weapon of choice is a ${darthVader.weapon}`);
-console.log(`Darth Vader is a sith? ${darthVader.sith}`);
-console.log(`Darth Vader is a Jedi? ${darthVader.sith ? "false" : "true"}`);
-console.log(Object.keys(darthVader).length);
+        //  2.	Access the properties that you have just declared by logging out the following details:
+        // a)	DarthVader's allegiance;
+        // b)	Darth Vader's weapon;
+        // c)	If Darth Vader is a sith;
+        // d)	The value of Jedi from Darth Vader; 
+        // e)	The number of properties Darth Vader has (see the line of code below for this)
+        // console.log(Object.keys(darthVader).length);
+
+        console.log(`Darth Vader's allegiance is to the ${darthVader.allegiance}`);
+        console.log(`Darth Vader's weapon of choice is a ${darthVader.weapon}`);
+        console.log(`Darth Vader is a sith? ${darthVader.sith}`);
+        console.log(`Darth Vader is a Jedi? ${darthVader.sith ? "false" : "true"}`);
+        console.log(Object.keys(darthVader).length);
 
 // 3.	Add key/value pairs to darthVader that:
 // a)	Sets a key of children to 2;
@@ -62,7 +64,8 @@ console.log(Object.keys(darthVader).length);
 // d)	Clearing the object and logging it out.
 
 
-</script>
+    </script>
 
 </body>
+
 </html>

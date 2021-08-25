@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destructing Object and Arrays</title>
+</head>
+
+<body>
+    <script>
+        //Demo 1
+        // let var1, var2, var3;
+        // [var1, var2, var3] = ["I", "love", "javascript"];
+        // console.log(var1);
+        // console.log(var2);
+        // console.log(var3);
+
+        //Demo 2
+        // let [var4, var5 = 7] = [1];
+        // console.log(var4);
+        // console.log(var5);
+
+        //Demo 3
+        // let myObject = { var6: "salt", var7: "pepper" };
+        // let { var6, var7 } = myObject;
+
+        // console.log(var6);
+        // console.log(var7);
+
+        //Demo 4:
+        let myObject = { var1: "salt" };
+        let { var1 = "ketchup", var2 = "mustard" } = myObject;
+        console.log(var1);
+        console.log(var2);
+
+
+
+
+    </script>
+
+</body>
+
+</html>

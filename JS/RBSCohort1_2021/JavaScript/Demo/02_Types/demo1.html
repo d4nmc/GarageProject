@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Type</title>
+</head>
+
+<body>
+    <script>
+        //Declaring variables
+        // var, let and const
+        // With and without assignment
+        // Do not use implicit declaration
+
+        // a = 10;  //implicit; DO NOT USE;
+        // console.log(a);
+
+        // var b; //ECMAScript 5; 
+        // console.log(b);
+        //function scope variable
+
+        //     let c = 10;  //ECMAScript 6; 
+        //     console.log(c);
+        //     //block scope variable
+
+        //     // let c = 20;
+        //     // console.log(c);
+
+        //     // var b = 30;
+        //     // console.log(b);
+
+        //     const E = 20;  // the same as let, but must be initialised at declaration and cannot be changed
+        //     //UPPERCASE for constants
+        //     console.log(E);
+
+        // //What should you use? const where possible. let when you need it to change
+
+        //Demo 2: typeof operator
+        // let mylet = 0;
+        // console.log(mylet);
+        // console.log(typeof mylet);
+
+        //Demo 3
+        //Undefined is the value of an uninitialized variable
+        //null is an explicit keyword that tells the runtime it is ‘empty’
+        //null is a value we can assign to represent objects that don’t exist
+
+        // let userID = null;
+        // let password;
+
+        // console.log(userID === password);
+
+        //Demo 4:
+        // const m = Number.MAX_VALUE;
+        // console.log(m);
+
+        // const n = Number.MIN_VALUE;
+        // console.log(n);
+
+        // let e = isNaN(124);
+        // console.log(e);
+
+        // let f = isNaN("hello");
+        // console.log(f);
+
+        //Demop 5:
+        // let y = "We are \"QAC\"";
+        // console.log(y);
+
+        //Demo 6:
+        //String Concatenation and Interpolation
+
+        // let str1 = "5 + 3 = ";
+        // let value = 5 + 3;
+        // let str2 = str1 + value;
+        // console.log(str2);
+
+        //Template Literal
+        //Template literals (introduced in ES2015) allow for strings to be declared 
+        //with JavaScript expressions that are evaluated immediately using ${} notation
+        // let str2 = `5 + 3 = ${5 + 3}`;
+        // console.log(str2);
+
+        let str = "hello world, welcome to the universe";
+        let a = str.length;
+
+        console.log(a);
+
+        //returns the index of (the position of) 
+        //the first occurrence of a specified text in a string
+
+        let b = str.indexOf("world");
+        console.log(b);
+
+        let c = str.substring(1, 4);
+        console.log(c);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>

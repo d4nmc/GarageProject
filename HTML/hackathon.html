@@ -40,18 +40,25 @@
         console.log(`Darth Vader is a Jedi? ${darthVader.sith ? "false" : "true"}`);
         console.log(Object.keys(darthVader).length);
 
-// 3.	Add key/value pairs to darthVader that:
-// a)	Sets a key of children to 2;
-// b)	Sets a key of childNames to the array ['Luke', 'Leia'];
-// And then log the children property and the value of the first element in the childNames array.
+        // 3.	Add key/value pairs to darthVader that:
+        // a)	Sets a key of children to 2;
+        // b)	Sets a key of childNames to the array ['Luke', 'Leia'];
+        // And then log the children property and the value of the first element in the childNames array.
+
+        darthVader.children = 2;
+        darthVader.childName = ["Luke", "Leia"]
+
+        console.log(darthVader);
+        console.log(`Darth Vaders first child is called: ${darthVader.childName[0]}`);
+        console.log(`Darth Vaders second child is called: ${darthVader.childName[1]}`);
 
 
+        // 4.	Iterate over darthVader using a for…in loop that uses both the key and the value of each pair, logging out each pair.
 
 
-// 4.	Iterate over darthVader using a for…in loop that uses both the key and the value of each pair, logging out each pair.
-
-
-
+        for (let child1 in vadersChildren) {
+            console.log(`${child1} : ${vadersChildren[child1]}`)
+        }
 
 // 5.	Manipulate the object by:
 // a)	Changing the value of allegiance to The light side and log out darthVader;
@@ -62,6 +69,9 @@
 // let{allegiance, weapon, sith, childNames} = darthVader;
 // i)	Console each individual variable out to ensure that they have been set.
 // d)	Clearing the object and logging it out.
+
+
+
 
 
     </script>
